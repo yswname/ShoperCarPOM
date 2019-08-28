@@ -1,6 +1,6 @@
 package cn.com.creative.demo.entity;
-
 import java.io.Serializable;
+import java.lang.reflect.Proxy;
 
 public class BookEntity implements Serializable {
     private Integer bkId;

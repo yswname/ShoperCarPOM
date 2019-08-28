@@ -1,12 +1,13 @@
 package cn.com.creative.demo.dao.mapper;
 
+import cn.com.creative.demo.dao.IBookDAO;
 import cn.com.creative.demo.entity.BookEntity;
 import org.apache.ibatis.annotations.*;
 import org.apache.ibatis.type.JdbcType;
 
 import java.util.List;
 
-public interface BookEntityMapper {
+public interface BookEntityMapper extends IBookDAO {
     @Select("select * from crt_book")
     @ResultMap(value = "bookMap")
     public List<BookEntity> selectAllBooks();
