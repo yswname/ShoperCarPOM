@@ -7,6 +7,7 @@ import cn.com.creative.demo.service.IBookService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import javax.servlet.ServletContainerInitializer;
 import java.util.List;
 
 public class TestMyBatisSpring {
@@ -19,5 +20,7 @@ public class TestMyBatisSpring {
         for(BookEntity book:bookList){
             System.out.println(book.getBkName());
         }
+
+        ServletContainerInitializer d;
     }
 }
