@@ -5,6 +5,7 @@ import cn.com.creative.demo.service.IBookService;
 import cn.com.creative.demo.service.IShopCar;
 import cn.com.creative.demo.service.impl.ShopCarImpl;
 import javafx.util.Pair;
+import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.SessionAttribute;
 import org.springframework.web.bind.annotation.SessionAttributes;
